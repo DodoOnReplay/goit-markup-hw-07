@@ -1,0 +1,29 @@
+
+@media  screen and (min-widh: 0px max-width: 765px) {
+    .mobile-menu-open{
+        width: 32px;
+        height: 22px;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        }
+}
+
+@media screen and (min-width: 480px){
+
+    .container {
+     width: 458px;
+     margin-left: auto;
+     margin-right: auto;
+    }
+    
+
+    .mobile-menu-open-icon {
+    stroke: rgb(185, 50, 50);
+    }
+    .header {
+    padding: 0;
+    margin: 0;
+    }
+    
+    }

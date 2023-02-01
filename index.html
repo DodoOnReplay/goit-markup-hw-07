@@ -15,6 +15,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
     
@@ -38,6 +41,13 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-open"data-modal-open>
+          <svg class="mobile-menu-open-icon" 
+          width="32" 
+          height="22">
+          <use href="./images/icons.svg#burger-icon"></use>
+          </svg>
+        </button>
 
         <ul class="contacts-list list">
           <li>
@@ -52,22 +62,29 @@
           </li>
         </ul>
       </div>
+      <!-- <div class="mob-menu">
+        <button type="button" class="modal-close-btn" data-modal-close> 
+          <svg class="modal-close-svg" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div> -->
     </header>
 
     <main>
 
       <!--                           HERO                       -->
 
-      <section class="hero hero-bg">
+      <!-- <section class="hero hero-bg">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-btn" data-modal-open>Order Service</button>
         </div>
-      </section>
+      </section> -->
 
       <!--                           ABOUT                        -->
 
-      <section class="about section">
+      <!-- <section class="about section">
         <div class="container">
           <h2 class="visually-hidden">About us</h2>
           <ul class="about-list list">
@@ -121,11 +138,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!--                                  SERVICES                    -->
 
-      <section class="services section">
+      <!-- <section class="services section">
         <div class="container">
           <h2 class="services-title">What are we doing</h2>
           <ul class="services-list list">
@@ -156,11 +173,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!--                              TEAM                      -->
 
-      <section class="team section">
+      <!-- <section class="team section">
         <div class="container">
           <h2 class="team-title">Our team</h2>
           <ul class="team-list list">
@@ -341,11 +358,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!--                         CUSTOMERS                        -->
 
-      <section class="customers section">
+      <!-- <section class="customers section">
         <div class="container">
           <h2 class="customers-title">Customers</h2>
           <ul class="castomers-list list">
@@ -393,14 +410,14 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!--                                FOOTER                         -->
 
-    <footer class="footer">
-      <div class="container footer-flex">
-        <div class="footer-main-info">
+    <!-- <footer class="footer">
+      <div class="container footer-flex"> -->
+        <!-- <div class="footer-main-info">
           <a class="logo-footer logo link" href="./index.html"
             ><span class="brand-color-logo">web</span>studio</a
           >
@@ -441,11 +458,11 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
 
         <!--                           SUBSCRIBE                       -->
 
-        <div class="footer-subscribe-wrap">
+        <!-- <div class="footer-subscribe-wrap">
           <p class="footer-sub-text">Subscribe</p>
           <form class="footer-form">
             <input type="email" 
@@ -460,18 +477,18 @@
               </svg>
             </button>   
           </form>       
-        </div>
+        </div> -->
 
 
 
         
-      </div>
-    </footer>
+      <!-- </div>
+    </footer> -->
 
     <!--                               MODAL                     -->
 
     <!--+is-hidden-->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn " data-modal-close> 
           <svg class="modal-close-svg" width="8" height="8">
@@ -481,7 +498,7 @@
 
         <!--                         MODAL FORM                   -->
 
-        <p class="modal-form-header">Leave your contacts and we will call you back</p>
+        <!-- <p class="modal-form-header">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-form-field">
             <label for="user-name" class="input-text">Name</label> 
@@ -547,9 +564,9 @@
             <span><svg class="privacy-icon" width="10" height="8"><use href="./images/icons.svg#icon-check-mark"></use>
             </svg></span> I accept the terms and conditions of the <a href="#" class="privacy-link"> Privacy Policy</a></label>
           <button type="submit" class="submit-btn">Send</button>
-        </form>
+        </form> -->
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>

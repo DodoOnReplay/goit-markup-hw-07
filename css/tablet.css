@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+
+    .container {
+    width: 766px;
+    }
+    .header-nav {
+    display: flex; 
+    align-items: center;
+    margin-right: auto;
+    }
+    
+    .header-list {
+    display: none;
+    gap: 40px;
+    }
+    
+    .header-link {
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    ine-height: 1.5;
+    
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+    }
+
+    .header-nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    }
+    .header-list {
+    gap: 40px;
+    } 
+    .mobile-menu-open {
+    display: none;
+    }
+
+}
