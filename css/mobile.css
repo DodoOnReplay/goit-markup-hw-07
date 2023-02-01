@@ -19,7 +19,7 @@
     
 
     .mobile-menu-open-icon {
-    stroke: rgb(185, 50, 50);
+    stroke: var(--dark-color)
     }
     .header {
     padding: 0;
