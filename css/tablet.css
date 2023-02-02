@@ -1,9 +1,11 @@
 
-    @media screen and (min-width: 768px) {
-        .container {
-        max-width: 768px;
-        }
+@media screen and (min-width: 768px) {
+    .container {
+    max-width: 768px;
+    margin: 0 auto;
+    outline: 1px solid red;
     }
+    
     
 
     .header-nav {
@@ -13,7 +15,6 @@
     }
     
     .header-list {
-    display: none;
     gap: 40px;
     }
     
@@ -27,14 +28,7 @@
     color: var(--dark-color);
     }
 
-    .header-nav {
-    display: flex;
-    align-items: center;
-    margin-right: auto;
-    }
-    .header-list {
-    gap: 40px;
-    } 
+
     .mobile-menu-open {
     display: none;
     }
