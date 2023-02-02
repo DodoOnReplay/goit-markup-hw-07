@@ -3,4 +3,35 @@
     max-width: 1158px;
     outline: 1px solid red;
     }
+
+    .header {
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
+    }
+
+    .header>.container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .header-nav {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+    }
+    
+    .header-list {
+        display: none;
+        gap: 40px;
+    }
+    
+    .header-link {
+        position: relative;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--dark-color);
+    
+    }
     }
