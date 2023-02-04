@@ -123,7 +123,6 @@ img {
 }
 
 
-----------------------------
 
 .container {
     max-width: 458px;
@@ -411,8 +410,6 @@ img {
     gap: 24px;
 }
 
-/* .about-list-item {
-    } */
 .about-list-item {
     display: flex;
     width: 264px;

@@ -14,13 +14,24 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/mobile.css" />
-    <link rel="stylesheet" href="./css/tablet.css" />
-    <link rel="stylesheet" href="./css/desktop.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link
+      rel="stylesheet"
+      href="./css/mobile.css"
+      media="screen and (max-width:767px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/tablet.css"
+      media="screen and (min-width:768px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+      media="screen and (min-width:1158px)"
+    />
   </head>
   <body>
-    
     <!--                            HEADER                        -->
 
     <header class="header">
@@ -57,50 +68,60 @@
         <!--        MOBILE MENU      -->
         <!--        open btn -->
         <button type="button" class="mobile-menu-open-btn" data-mobile-open>
-          <svg class="mobile-menu-open-icon" 
-          width="32" 
-          height="22">
-          <use href="./images/icons.svg#icon-burger-icon"></use>
+          <svg class="mobile-menu-open-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-burger-icon"></use>
           </svg>
         </button>
       </div>
-        <!--           menu              -->
+      <!--           menu              -->
       <div class="mobile-menu is-hidden" data-mobile>
         <div class="container-mobile">
           <div class="mobile-menu-top">
-            <button type="button" class="mobile-menu-close-btn" data-mobile-close> 
+            <button
+              type="button"
+              class="mobile-menu-close-btn"
+              data-mobile-close
+            >
               <svg class="modal-close-svg" width="8" height="8">
-              <use href="./images/icons.svg#icon-close"></use>
+                <use href="./images/icons.svg#icon-close"></use>
               </svg>
             </button>
             <ul class="mobile-menu-list list">
               <li class="mobile-menu-item">
-                <a class="mobile-menu-link link current" href="./index.html">Studio</a>
+                <a class="mobile-menu-link link current" href="./index.html"
+                  >Studio</a
+                >
               </li>
               <li class="mobile-menu-item">
-                <a class="mobile-menu-link link" href="./portfolio.html">Portfolio</a>
+                <a class="mobile-menu-link link" href="./portfolio.html"
+                  >Portfolio</a
+                >
               </li>
               <li class="mobile-menu-item">
                 <a class="mobile-menu-link link" href="">Contacts</a>
               </li>
             </ul>
           </div>
-  
+
           <div class="mobile-menu-down">
             <ul class="mobile-menu-contacts-list list">
               <li>
-                <a class="mobile-menu-contacts-tel link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
+                <a
+                  class="mobile-menu-contacts-tel link"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
                 >
               </li>
               <li>
-                <a class="mobile-menu-contacts-mail link" href="mailto:info@devstudio.com"
+                <a
+                  class="mobile-menu-contacts-mail link"
+                  href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
             </ul>
           </div>
-          
+
           <div class="mobile-menu-sm">
             <ul class="mobile-menu-sm-list list">
               <li class="mobile-menu-sm-item">
@@ -138,77 +159,78 @@
     </header>
 
     <main>
-
       <!--                           HERO                       -->
 
-      <!-- <section class="hero hero-bg">
+      <section class="hero hero-bg">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-btn" data-modal-open>Order Service</button>
+          <button type="button" class="hero-btn" data-modal-open>
+            Order Service
+          </button>
         </div>
-      </section> -->
+      </section>
 
       <!--                           ABOUT                        -->
 
-      <!-- <section class="about section">
+      <section class="about section">
         <div class="container">
           <h2 class="visually-hidden">About us</h2>
           <ul class="about-list list">
-            <li>
-              <div class="about-list-item">
+            <li class="about-item">
+              <div class="about-wrap">
                 <svg class="about-icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h3 class="about-list-title">Strategy</h3>
-              <p class="about-list-text">
+              <h3 class="about-title">Strategy</h3>
+              <p class="about-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
-              <div class="about-list-item">
+            <li class="about-item">
+              <div class="about-wrap">
                 <svg class="about-icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h3 class="about-list-title">Punctuality</h3>
-              <p class="about-list-text">
+              <h3 class="about-title">Punctuality</h3>
+              <p class="about-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
-              <div class="about-list-item">
+            <li class="about-item">
+              <div class="about-wrap">
                 <svg class="about-icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h3 class="about-list-title">Diligence</h3>
-              <p class="about-list-text">
+              <h3 class="about-title">Diligence</h3>
+              <p class="about-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
-              <div class="about-list-item">
+            <li class="about-item">
+              <div class="about-wrap">
                 <svg class="about-icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h3 class="about-list-title">Technologies</h3>
-              <p class="about-list-text">
+              <h3 class="about-title">Technologies</h3>
+              <p class="about-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--                                  SERVICES                    -->
 
-      <!-- <section class="services section">
+      <section class="services section">
         <div class="container">
           <h2 class="services-title">What are we doing</h2>
           <ul class="services-list list">
@@ -218,7 +240,7 @@
                 src="./images/services/service_1.jpg"
                 alt="The program interface on the monitor"
                 width="360"
-                >
+              />
             </li>
             <li class="services-list-item">
               <img
@@ -226,7 +248,8 @@
                 src="./images/services/service_2.jpg"
                 alt="Mobile messenger interface"
                 width="360"
-                height="300">
+                height="300"
+              />
             </li>
             <li class="services-list-item">
               <img
@@ -235,15 +258,15 @@
                 alt="Smartphone with opened application in the hand"
                 width="360"
                 height="300"
-                >
+              />
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--                              TEAM                      -->
 
-      <!-- <section class="team section">
+      <section class="team section">
         <div class="container">
           <h2 class="team-title">Our team</h2>
           <ul class="team-list list">
@@ -254,7 +277,7 @@
                 alt="Mark Guerrero photo"
                 width="264"
                 height="260"
-                >
+              />
               <div class="team-member-wrap">
                 <h3 class="team-member-name">Mark Guerrero</h3>
                 <p class="team-member-poisition">Product Designer</p>
@@ -298,7 +321,7 @@
                 alt="Tom Ford photo"
                 width="264"
                 height="260"
-                >
+              />
               <div class="team-member-wrap">
                 <h3 class="team-member-name">Tom Ford</h3>
                 <p class="team-member-poisition">Frontend Developer</p>
@@ -342,7 +365,7 @@
                 alt="Camila Garcia photo"
                 width="264"
                 height="260"
-                >
+              />
               <div class="team-member-wrap">
                 <h3 class="team-member-name">Camila Garcia</h3>
                 <p class="team-member-poisition">Marketing</p>
@@ -386,7 +409,7 @@
                 alt="Daniel Wilson photo"
                 width="264"
                 height="260"
-                >
+              />
               <div class="team-member-wrap">
                 <h3 class="team-member-name">Daniel Wilson</h3>
                 <p class="team-member-poisition">UI Designer</p>
@@ -424,11 +447,11 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--                         CUSTOMERS                        -->
 
-      <!-- <section class="customers section">
+      <section class="customers section">
         <div class="container">
           <h2 class="customers-title">Customers</h2>
           <ul class="castomers-list list">
@@ -476,14 +499,14 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <!--                                FOOTER                         -->
 
-    <!-- <footer class="footer">
-      <div class="container footer-flex"> -->
-        <!-- <div class="footer-main-info">
+    <footer class="footer">
+      <div class="container footer-flex">
+        <div class="footer-main-info">
           <a class="logo-footer logo link" href="./index.html"
             ><span class="brand-color-logo">web</span>studio</a
           >
@@ -524,72 +547,76 @@
               </a>
             </li>
           </ul>
-        </div> -->
+        </div>
 
         <!--                           SUBSCRIBE                       -->
 
-        <!-- <div class="footer-subscribe-wrap">
-          <p class="footer-sub-text">Subscribe</p>
+        <div class="footer-subscribe-wrap">
+          <p class="footer-sm-text">Subscribe</p>
           <form class="footer-form">
-            <input type="email" 
-            placeholder="E-mail" 
-            name="user-email" 
-            class="footer-form-input" 
-            required
-            />  
-            <button type="submit" class="button-subscribe">Subscribe
+            <input
+              type="email"
+              placeholder="E-mail"
+              name="user-email"
+              class="footer-form-input"
+              required
+            />
+            <button type="submit" class="button-subscribe">
+              Subscribe
               <svg class="icon-send" width="24" height="20">
-              <use href="./images/icons.svg#icon-send"></use>
+                <use href="./images/icons.svg#icon-send"></use>
               </svg>
-            </button>   
-          </form>       
-        </div> -->
-
-
-
-        
-      <!-- </div>
-    </footer> -->
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
 
     <!--                               MODAL                     -->
 
     <!--+is-hidden-->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-btn " data-modal-close> 
+        <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-svg" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
 
-
-
-        <p class="modal-form-header">Leave your contacts and we will call you back</p>
+        <p class="modal-form-header">
+          Leave your contacts and we will call you back
+        </p>
         <form class="modal-form">
           <div class="modal-form-field">
-            <label for="user-name" class="input-text">Name</label> 
+            <label for="user-name" class="input-text">Name</label>
             <div class="input-wrap">
-              <input type="text" class="modal-input" 
-                name="user-name" 
+              <input
+                type="text"
+                class="modal-input"
+                name="user-name"
                 placeholder=""
                 required
                 id="user-name"
-                />
-              <svg class="modal-input-icon" width="12" height="12"><use href="./images/icons.svg#icon-user"></use>
+              />
+              <svg class="modal-input-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-user"></use>
               </svg>
             </div>
           </div>
 
           <div class="modal-form-field">
-            <label for="user-phone" class="input-text">Phone</label> 
+            <label for="user-phone" class="input-text">Phone</label>
             <div class="input-wrap">
-              <input type="tel" class="modal-input" 
-              name="user-phone" 
-              placeholder="" 
-              required
-              id="user-phone"
+              <input
+                type="tel"
+                class="modal-input"
+                name="user-phone"
+                placeholder=""
+                required
+                id="user-phone"
               />
-              <svg class="modal-input-icon" width="13" height="13"><use href="./images/icons.svg#icon-phone"></use>
+              <svg class="modal-input-icon" width="13" height="13">
+                <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
@@ -597,13 +624,16 @@
           <div class="modal-form-field">
             <label for="user-email" class="input-text">Email</label>
             <div class="input-wrap">
-              <input type="email" class="modal-input" 
-              name="user-email" 
-              placeholder="" 
-              required
-              id="user-email"
+              <input
+                type="email"
+                class="modal-input"
+                name="user-email"
+                placeholder=""
+                required
+                id="user-email"
               />
-              <svg class="modal-input-icon" width="15" height="15"><use href="./images/icons.svg#icon-letter"></use>
+              <svg class="modal-input-icon" width="15" height="15">
+                <use href="./images/icons.svg#icon-letter"></use>
               </svg>
             </div>
           </div>
@@ -611,30 +641,35 @@
           <div class="modal-form-field">
             <label for="modal-user-comment" class="input-text">Comment</label>
             <div class="input-wrap">
-              <textarea 
-              name="modal-user-comment" 
-              id="modal-user-comment" 
-              class="modal-comment"
-              placeholder="Text input"
+              <textarea
+                name="modal-user-comment"
+                id="modal-user-comment"
+                class="modal-comment"
+                placeholder="Text input"
               ></textarea>
             </div>
           </div>
 
-          <input type="checkbox"
-          name="privacy"
-          id="privacy"
-          value="true"
-          class="input-check visually-hidden"
-          >
+          <input
+            type="checkbox"
+            name="privacy"
+            id="privacy"
+            value="true"
+            class="input-check visually-hidden"
+          />
           <label for="privacy" class="check-text">
-            <span><svg class="privacy-icon" width="10" height="8"><use href="./images/icons.svg#icon-check-mark"></use>
-            </svg></span> I accept the terms and conditions of the <a href="#" class="privacy-link"> Privacy Policy</a></label>
+            <span
+              ><svg class="privacy-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-check-mark"></use></svg
+            ></span>
+            I accept the terms and conditions of the
+            <a href="#" class="privacy-link"> Privacy Policy</a></label
+          >
           <button type="submit" class="submit-btn">Send</button>
         </form>
       </div>
-    </div> -->
-      <script src="./js/mobile.js"></script>
-      <script src="./js/modal.js"></script>
-
+    </div>
+    <script src="./js/mobile.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
