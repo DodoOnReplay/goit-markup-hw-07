@@ -71,10 +71,10 @@ img {
     transition-delay: 0; */
 }
 
-/* .link:hover,
+.link:hover,
 .link:focus {
     color: var(--brand-color);
-} */
+}
 
 .container {
   width: 100%;
