@@ -466,7 +466,9 @@ img {
 }
 
 /* ---------------team--------------- */
-
+.team.section{
+  padding-bottom: 128px;
+}
 .team {
   background-color: var(--light-color);
 }
@@ -582,8 +584,8 @@ img {
 
 .footer {
   background-color: var(--dark-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 /* .footer-flex {
  
