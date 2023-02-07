@@ -198,8 +198,11 @@ img {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  overflow: auto;
+  /* justify-content: space-between; */
+  /* overflow: auto; */
+}
+.mobile-menu-down{
+  margin-top: auto;
 }
 
 .mobile-menu-list {
